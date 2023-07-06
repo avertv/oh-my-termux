@@ -14,7 +14,7 @@ pkg install -y libcurl curl
 
 # Installation
 ```bash
-bash -c "$(curl -fsSL https://git.io/oh-my-termux)"
+bash -c "$(curl -fsSL https://bit.ly/oh-myzsh)"
 ```
 
 # Revert to back
