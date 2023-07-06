@@ -16,3 +16,8 @@ pkg install -y libcurl curl
 ```bash
 bash -c "$(curl -fsSL https://git.io/oh-my-termux)"
 ```
+
+# Revert to back
+```bash
+rm -r $HOME/.termux/*; touch termux.properties; termux-reload-settings
+```
