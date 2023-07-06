@@ -19,5 +19,5 @@ bash -c "$(curl -fsSL https://bit.ly/oh-myzsh)"
 
 # Revert to back
 ```bash
-rm -r $HOME/.termux/*; rm -rf $HOME/.oh-my-zsh; touch termux.properties; termux-reload-settings
+rm -r $HOME/.termux/*; rm -rf $HOME/.oh-my-zsh; rm -rf $HOME/.termux.bak; touch termux.properties; termux-reload-settings
 ```
